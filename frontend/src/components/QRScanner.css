@@ -1,0 +1,43 @@
+.scanner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.scanner-box {
+  position: relative;
+  width: 320px;
+  max-width: 100%;
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.scanner-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: red;
+  animation: scanLine 2s infinite linear;
+  z-index: 5;
+}
+
+@keyframes scanLine {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+.last-scanned {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #333;
+}

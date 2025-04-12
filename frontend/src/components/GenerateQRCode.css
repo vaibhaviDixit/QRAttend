@@ -1,0 +1,34 @@
+.qr-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.qr-card {
+  background: #ffffff;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.qr-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.qr-card h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.qr-card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
