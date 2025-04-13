@@ -1,34 +1,22 @@
 .qr-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 40px;
+  justify-content: space-around;
 }
 
 .qr-card {
-  background: #ffffff;
-  border: 2px solid #4caf50;
-  border-radius: 10px;
+  margin: 20px;
   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
   text-align: center;
-  width: 220px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-}
-
-.qr-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  width: 200px;
 }
 
 .qr-card h4 {
   margin-bottom: 10px;
-  font-size: 18px;
 }
 
 .qr-card p {
   margin-top: 10px;
-  font-size: 14px;
-  color: #333;
 }
